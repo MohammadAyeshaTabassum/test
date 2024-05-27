@@ -5,7 +5,7 @@ let icon = document.querySelector(".icon");
 let exchangeTxt = document.querySelector(".exchange_rate");
 let getBtn = document.querySelector("button");
 
-//adding options tag
+
 
 for (let i = 0; i < dropList.length; i++) {
   for (let currency_code in country_list) {
